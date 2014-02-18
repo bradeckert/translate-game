@@ -1,0 +1,60 @@
+html {
+    
+}
+
+#app {
+	background-color: #eee;
+	border: 1px solid gray;
+	width: 480px;
+	height: auto;
+	margin: 10px auto;
+	padding: 10px;
+	min-height: 300px;
+	font-family: "Trebuchet MS";
+}
+
+#instruction {
+	color: gray;
+	font-size: 2em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.lang {
+	color: black;
+}
+
+#content {
+	margin-top: 25px;
+	font-size: 1.15em;
+}
+
+.entry-row td {
+	padding-bottom: 15px;
+}
+
+
+.current {
+	color: black;
+}
+
+td {
+	padding-right: 10px;
+}
+
+th {
+	text-align: left;
+	color: gray;
+}
+
+.correct {
+	color: blue;
+}
+
+.incorrect {
+	color: red;
+}
+
+.incorrect td:nth-child(2) {
+	text-decoration: line-through;
+}
